@@ -1,7 +1,8 @@
 # nhash
 Thanks to nobody in particular et al.
 
-nhash.c has uint128 removed for 32bit compatibility.
+nhash.c has uint128 removed for 32bit compatibility thanks to marcel.
+
 nhash-u128.c included for posterity.
 
 Python version with example included.
