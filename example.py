@@ -7,7 +7,7 @@ _nhash = ctypes.cdll.LoadLibrary("nhash32.dll")
 _nhash.compute_hash.argtypes = (ctypes.POINTER(ctypes.c_ubyte), ctypes.c_uint32)
 _nhash.compute_hash.restype = ctypes.c_uint64
 
-HASH_SEED = 0x61247FBF
+HASH_SEED = 0x46e945f8
     
 def hash32DLL(buf, seed):
     buf = struct.pack(">I", seed) + buf
