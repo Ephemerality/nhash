@@ -1,7 +1,7 @@
 WIN32CC = i686-w64-mingw32-gcc
 WIN64CC = x86_64-w64-mingw32-gcc
 CC = gcc
-CFLAGS += -std=c99 -shared
+CFLAGS += -std=c99 -shared -O3
 
 all: nhash32.dll nhash64.dll libnhash-linux-x86-64.so libnhash-linux-x86-32.so
 
